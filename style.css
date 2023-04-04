@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--Pale-blue);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 400px;
+    border-radius: 25px;
+    padding-bottom: 50px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 25px 25px 0 0;
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: var(--Dark-blue);
+    padding-top: 2rem;
+}
+
+.note {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.sect-2 {
+    background-color: var(--Very-pale-blue);
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+}
+
+.annual {
+    font-weight: 700;
+    color: var(--Dark-blue);
+    display: inline;
+    float: right;
+    padding-top: 2px;
+    padding-right: 7rem;
+
+}
+
+.sect-2 a{
+    bottom: 1.5rem;
+    padding-left: 83%;
+    text-align: right;
+    position: relative;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--Bright-blue);
+}
+
+.price {
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+    display: inline;
+    float: right;
+    padding-right: 7rem;
+}
+
+.music {
+    width: 17%;
+    float:left;
+
+}
+
+.btn {
+    background-color: var(--Bright-blue);
+    color: white;
+    width: 300px;
+    height: 40px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.6rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--Dark-blue);
+}
+
+.btn2 {
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--Desaturated-blue);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.btn2:hover {
+    cursor: pointer;
+   
+}
+
+.attribution {
+
+}
+
+@media screen and (max-width: 700px) {
+    
+}
